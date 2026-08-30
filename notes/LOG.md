@@ -28,6 +28,8 @@
 | 0024 | `images/raw/0024-s3-title.jpg` | story 3 표제 (Never Enough) | [0008](0008-story3-never-enough.md) |
 | 0025 | `images/raw/0025-p69-heller.jpg` | p.69 제사 + 조지프 헬러 '충분히' | [0008](0008-story3-never-enough.md) |
 | 0026 | `images/raw/0026-p70-enough.jpg` | p.70 '충분히' 분석 + 라자트 굽타 | [0008](0008-story3-never-enough.md) |
+| 0027 | `images/raw/0027-p71-gupta.jpg` | p.71 굽타의 정점 · "그들의 무리" | [0008](0008-story3-never-enough.md) |
+| 0028 | `images/raw/0028-p72-gupta-fall.jpg` | p.72 내부자거래와 추락 | [0008](0008-story3-never-enough.md) |
 
 ---
 
@@ -36,7 +38,7 @@
 | | 내용 | 시기 |
 |---|---|---|
 | [E01](experience/E01-2009-samsung.md) | 같은 강의실 다른 월급 — "불공평"이 아니라 "다르다" | 2009 |
-| [E02](experience/E02-my-enough.md) | 내 '충분함'의 좌표 — 전원주택 딜레마 | 현재 |
+| [E02](experience/E02-my-enough.md) | 내 '충분함'의 좌표 — 전원주택 딜레마 **+ 내 '충분히' 문장(일/돈/삶/제약)** | 현재 |
 
 ---
 
