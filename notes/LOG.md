@@ -15,6 +15,10 @@
 | 0011 | `images/raw/0011-s1-quote.jpg` | 0.00000001% vs 80% | [0004](0004-story1-no-ones-crazy.md) |
 | 0012 | `images/raw/0012-p32-cohort.jpg` | p.32 1970 vs 1950년생 | [0004](0004-story1-no-ones-crazy.md) |
 | 0013 | `images/raw/0013-p33-chart.jpg` | p.33 그래프 10대·20대에 경험한 주식시장 | [0004](0004-story1-no-ones-crazy.md) |
+| 0014 | `images/raw/0014-p36-mental-model.jpg` | p.36 정신 모형 · 모든 의사결정은 타당하다 | [0005](0005-story1-lottery-mental-model.md) |
+| 0015 | `images/raw/0015-p37-lottery.jpg` | p.37 복권 412달러 vs 비상금 400달러 | [0005](0005-story1-lottery-mental-model.md) |
+| 0016 | `images/raw/0016-p38-empathy.jpg` | p.38 복권 구매자의 독백 | [0005](0005-story1-lottery-mental-model.md) |
+| 0017 | `images/raw/0017-p39-spreadsheet.jpg` | p.39 스프레드시트에 없는 것 · 기원전 600년 | [0005](0005-story1-lottery-mental-model.md) |
 
 ---
 
