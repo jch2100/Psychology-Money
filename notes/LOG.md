@@ -30,6 +30,8 @@
 | 0026 | `images/raw/0026-p70-enough.jpg` | p.70 '충분히' 분석 + 라자트 굽타 | [0008](0008-story3-never-enough.md) |
 | 0027 | `images/raw/0027-p71-gupta.jpg` | p.71 굽타의 정점 · "그들의 무리" | [0008](0008-story3-never-enough.md) |
 | 0028 | `images/raw/0028-p72-gupta-fall.jpg` | p.72 내부자거래와 추락 | [0008](0008-story3-never-enough.md) |
+| 0029 | `images/raw/0029-p73-madoff.jpg` | p.73 매도프 · "왜 더 원했는가" | [0008](0008-story3-never-enough.md) |
+| 0030 | `images/raw/0030-p75-buffett-ltcm.jpg` | p.75 LTCM · **워런 버핏의 말(제사 회수)** | [0008](0008-story3-never-enough.md) |
 
 ---
 
