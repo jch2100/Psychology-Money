@@ -33,6 +33,12 @@
 | 0029 | `images/raw/0029-p73-madoff.jpg` | p.73 매도프 · "왜 더 원했는가" | [0008](0008-story3-never-enough.md) |
 | 0030 | `images/raw/0030-p75-buffett-ltcm.jpg` | p.75 LTCM · **워런 버핏의 말(제사 회수)** | [0008](0008-story3-never-enough.md) |
 | 0031 | `images/raw/0031-s3-big-lesson.jpg` | story 3 Big Lesson — 네 가지 질문 · 라스베이거스 | [0008](0008-story3-never-enough.md) |
+| 0032 | `images/raw/0032-s4-title.jpg` | story 4 표제 (Confounding Compounding) | [0009](0009-story4-compounding.md) |
+| 0033 | `images/raw/0033-p89-buffett.jpg` | p.89 버핏 845억 · 815억은 65세 이후 | [0009](0009-story4-compounding.md) |
+| 0034 | `images/raw/0034-p90-simons.jpg` | p.90 짐 사이먼스 66% vs 버핏 22% | [0009](0009-story4-compounding.md) |
+| 0035 | `images/raw/0035-p91-counterintuitive.jpg` | p.91 8+8 vs 8×8 · 복리의 비직관성 | [0009](0009-story4-compounding.md) |
+| 0036 | `images/raw/0036-p94-repeatable.jpg` | p.94 **최고 수익률은 반복 불가** | [0009](0009-story4-compounding.md) |
+| 0037 | `images/raw/0037-s4-big-lesson.jpg` | story 4 Big Lesson — 닥치고 기다려라 | [0009](0009-story4-compounding.md) |
 
 ---
 
