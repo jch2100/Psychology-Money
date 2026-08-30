@@ -19,6 +19,8 @@
 | 0015 | `images/raw/0015-p37-lottery.jpg` | p.37 복권 412달러 vs 비상금 400달러 | [0005](0005-story1-lottery-mental-model.md) |
 | 0016 | `images/raw/0016-p38-empathy.jpg` | p.38 복권 구매자의 독백 | [0005](0005-story1-lottery-mental-model.md) |
 | 0017 | `images/raw/0017-p39-spreadsheet.jpg` | p.39 스프레드시트에 없는 것 · 기원전 600년 | [0005](0005-story1-lottery-mental-model.md) |
+| 0018 | `images/raw/0018-p40-dog.jpg` | p.40 개는 1만 년, 금융은 50년 | [0006](0006-story1-dog-and-luck.md) |
+| 0019 | `images/raw/0019-big-lesson.jpg` | Big Lesson of Investing 박스 | [0006](0006-story1-dog-and-luck.md) |
 
 ---
 
