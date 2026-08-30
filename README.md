@@ -19,6 +19,7 @@
 ```
 images/raw/      원본 사진 (0001, 0002, ... 순번)
 notes/           사진에서 옮긴 텍스트 + 해석 + 강의 활용 메모
+notes/experience/ 내 개인 경험 (책 내용과 분리해서 축적)
 notes/LOG.md     축적 로그 (사진 번호 ↔ 노트 대응표)
 templates/       기록 양식
 ```
