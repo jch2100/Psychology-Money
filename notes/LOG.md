@@ -32,6 +32,7 @@
 | 0028 | `images/raw/0028-p72-gupta-fall.jpg` | p.72 내부자거래와 추락 | [0008](0008-story3-never-enough.md) |
 | 0029 | `images/raw/0029-p73-madoff.jpg` | p.73 매도프 · "왜 더 원했는가" | [0008](0008-story3-never-enough.md) |
 | 0030 | `images/raw/0030-p75-buffett-ltcm.jpg` | p.75 LTCM · **워런 버핏의 말(제사 회수)** | [0008](0008-story3-never-enough.md) |
+| 0031 | `images/raw/0031-s3-big-lesson.jpg` | story 3 Big Lesson — 네 가지 질문 · 라스베이거스 | [0008](0008-story3-never-enough.md) |
 
 ---
 
