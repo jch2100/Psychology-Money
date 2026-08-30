@@ -55,7 +55,8 @@
 
 | | 내용 | 관련 |
 |---|---|---|
-| [D01](design/D01-life-events-and-compounding.md) | 생활 변수를 반영한 복리 — 자금별 시계 분리, 비상금=복리의 보험료 | story 4 |
+| [D01](design/D01-life-events-and-compounding.md) | 생활 변수를 반영한 복리 — 가로/세로 저축, '회복 가능성' 기준 | story 4 |
+| [D02](design/D02-evidence-pack.md) | **D01 근거자료** — 401(k) 누수, Vanguard 비상금 연구, 한국 자산구조 | D01 |
 
 ---
 
