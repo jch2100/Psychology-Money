@@ -21,6 +21,10 @@
 | 0017 | `images/raw/0017-p39-spreadsheet.jpg` | p.39 스프레드시트에 없는 것 · 기원전 600년 | [0005](0005-story1-lottery-mental-model.md) |
 | 0018 | `images/raw/0018-p40-dog.jpg` | p.40 개는 1만 년, 금융은 50년 | [0006](0006-story1-dog-and-luck.md) |
 | 0019 | `images/raw/0019-big-lesson.jpg` | Big Lesson of Investing 박스 | [0006](0006-story1-dog-and-luck.md) |
+| 0020 | `images/raw/0020-s2-title.jpg` | story 2 표제 (Luck & Risk) | [0007](0007-story2-luck-and-risk.md) |
+| 0021 | `images/raw/0021-p48-lakeside.jpg` | p.48 레이크사이드 스쿨·텔레타이프 | [0007](0007-story2-luck-and-risk.md) |
+| 0022 | `images/raw/0022-p50-kent-evans.jpg` | p.50 켄트 에번스 | [0007](0007-story2-luck-and-risk.md) |
+| 0023 | `images/raw/0023-s2-big-lesson.jpg` | story 2 Big Lesson 박스 | [0007](0007-story2-luck-and-risk.md) |
 
 ---
 
