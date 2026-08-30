@@ -1,0 +1,355 @@
+<title>가로저축과 세로저축</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#FCFCFA; --surface:#FFFFFF; --surface-2:#F4F5F2;
+  --ink:#16202A; --ink-soft:#4C5A66; --ink-faint:#7D8994;
+  --line:#DEE2DF; --line-soft:#EAEDEA;
+  --hor:#8E5F2C; --hor-bg:#F5EDE3;
+  --ver:#1C6A67; --ver-bg:#E4F0EF;
+  --alert:#A03A3A;
+  --serif:"Gowun Batang",Georgia,"Nanum Myeongjo",serif;
+  --sans:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#11171C; --surface:#182027; --surface-2:#1E272E;
+    --ink:#E9EEF1; --ink-soft:#A3B0B9; --ink-faint:#7C8A94;
+    --line:#2B363E; --line-soft:#222C33;
+    --hor:#CE9553; --hor-bg:#2A2118;
+    --ver:#57B0AA; --ver-bg:#152826;
+    --alert:#D97878;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#11171C; --surface:#182027; --surface-2:#1E272E;
+  --ink:#E9EEF1; --ink-soft:#A3B0B9; --ink-faint:#7C8A94;
+  --line:#2B363E; --line-soft:#222C33;
+  --hor:#CE9553; --hor-bg:#2A2118;
+  --ver:#57B0AA; --ver-bg:#152826;
+  --alert:#D97878;
+}
+*{box-sizing:border-box}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:var(--sans); font-weight:300; font-size:17px; line-height:1.85;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:clamp(2.5rem,6vw,5rem) clamp(1.1rem,4vw,2rem) 5rem}
+p{margin:0 0 1.1em}
+strong{font-weight:600;color:var(--ink)}
+em{font-style:normal;font-weight:500;color:var(--ver)}
+
+/* ---- masthead ---- */
+.mast{border-bottom:1px solid var(--ink);padding-bottom:1.6rem;margin-bottom:3.2rem}
+.kicker{font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:1.4rem}
+h1{
+  font-family:var(--serif);font-weight:700;
+  font-size:clamp(2.4rem,7vw,3.6rem);line-height:1.12;letter-spacing:-.01em;
+  margin:0 0 1.1rem;text-wrap:balance;
+}
+.thesis{font-size:1.12rem;line-height:1.7;color:var(--ink-soft);margin:0;max-width:32rem}
+.thesis b{color:var(--ink);font-weight:600}
+
+/* ---- sections ---- */
+section{margin:0 0 3.4rem}
+.eyebrow{
+  display:flex;align-items:center;gap:.7rem;
+  font-family:var(--mono);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--ink-faint);margin-bottom:.9rem;
+}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--line)}
+h2{
+  font-family:var(--serif);font-weight:700;font-size:clamp(1.5rem,4vw,1.95rem);
+  line-height:1.3;margin:0 0 1.1rem;text-wrap:balance;letter-spacing:-.005em;
+}
+h3{font-family:var(--sans);font-weight:600;font-size:1.02rem;margin:2rem 0 .6rem;color:var(--ink)}
+
+/* ---- pull quote ---- */
+.pull{
+  font-family:var(--serif);font-size:clamp(1.25rem,3.4vw,1.55rem);line-height:1.5;
+  color:var(--ink);border-left:3px solid var(--ver);
+  padding:.2rem 0 .2rem 1.3rem;margin:2rem 0;text-wrap:balance;
+}
+.pull small{display:block;font-family:var(--sans);font-size:.82rem;font-weight:400;color:var(--ink-faint);margin-top:.7rem;line-height:1.6}
+
+/* ---- evidence block ---- */
+.ev{
+  background:var(--surface);border:1px solid var(--line);border-radius:2px;
+  padding:1.3rem 1.4rem;margin:1.5rem 0;
+}
+.ev-h{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.9rem}
+.stats{display:grid;gap:.85rem;margin:0}
+.stat{display:grid;grid-template-columns:5.2rem 1fr;gap:1rem;align-items:baseline}
+.stat b{
+  font-family:var(--mono);font-weight:500;font-size:1.22rem;
+  color:var(--ver);font-variant-numeric:tabular-nums;letter-spacing:-.02em;
+}
+.stat span{font-size:.93rem;line-height:1.55;color:var(--ink-soft)}
+.ev-note{margin:1rem 0 0;padding-top:.9rem;border-top:1px solid var(--line-soft);font-size:.9rem;line-height:1.65;color:var(--ink-soft)}
+.ev-note b{color:var(--ink)}
+
+/* ---- curve diagram ---- */
+.curves{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.8rem 0}
+.curve{background:var(--surface);border:1px solid var(--line);border-radius:2px;padding:1rem}
+.curve figcaption{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:.7rem}
+.curve svg{display:block;width:100%;height:auto}
+.c-line{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.c-a{stroke:var(--ver)}
+.c-b{stroke:var(--hor)}
+.c-axis{stroke:var(--line);stroke-width:1}
+
+/* ---- 가로/세로 diagram ---- */
+.axes{display:grid;gap:1rem;margin:1.8rem 0}
+.axis{border:1px solid var(--line);border-radius:2px;overflow:hidden;background:var(--surface)}
+.axis-h{display:flex;align-items:baseline;gap:.6rem;padding:.85rem 1rem;border-bottom:1px solid var(--line-soft)}
+.axis-h b{font-size:1rem;font-weight:600}
+.axis-h span{font-size:.85rem;color:var(--ink-faint)}
+.axis.hor .axis-h b{color:var(--hor)}
+.axis.ver .axis-h b{color:var(--ver)}
+.bars{padding:1rem;display:grid;gap:.4rem}
+.bar{height:1.7rem;border-radius:2px;display:flex;align-items:center;padding:0 .7rem;font-size:.78rem;font-weight:500;white-space:nowrap;overflow:hidden}
+.axis.hor .bar{background:var(--hor-bg);color:var(--hor)}
+.axis.ver .bar{background:var(--ver-bg);color:var(--ver)}
+.bars.seq{grid-template-columns:repeat(4,1fr);grid-auto-flow:column}
+.bars.par{grid-template-columns:1fr}
+.axis-f{padding:.75rem 1rem;border-top:1px solid var(--line-soft);font-size:.86rem;color:var(--ink-soft)}
+
+/* ---- table ---- */
+.tw{overflow-x:auto;margin:1.8rem 0;border:1px solid var(--line);border-radius:2px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:34rem;font-size:.92rem}
+th,td{text-align:left;padding:.85rem 1rem;border-bottom:1px solid var(--line-soft);vertical-align:top;line-height:1.55}
+th{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-faint);font-weight:400;background:var(--surface-2)}
+tbody tr:last-child td{border-bottom:none}
+td:first-child{font-weight:500;color:var(--ink);white-space:nowrap}
+.tag{font-family:var(--mono);font-size:.7rem;letter-spacing:.05em;padding:.2rem .5rem;border-radius:2px;white-space:nowrap;display:inline-block}
+.tag.h{background:var(--hor-bg);color:var(--hor)}
+.tag.v{background:var(--ver-bg);color:var(--ver)}
+
+/* ---- chain ---- */
+.chain{
+  display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;margin:1.5rem 0;
+  font-family:var(--mono);font-size:.8rem;
+}
+.chain i{font-style:normal;background:var(--surface-2);border:1px solid var(--line);padding:.35rem .6rem;border-radius:2px;color:var(--ink-soft)}
+.chain u{text-decoration:none;color:var(--ink-faint)}
+
+/* ---- checklist ---- */
+ol.check{list-style:none;counter-reset:c;padding:0;margin:1.4rem 0;display:grid;gap:.7rem}
+ol.check li{counter-increment:c;display:grid;grid-template-columns:1.6rem 1fr;gap:.8rem;align-items:baseline;font-size:1rem}
+ol.check li::before{
+  content:counter(c);font-family:var(--mono);font-size:.78rem;color:var(--ver);
+  border:1px solid var(--ver);border-radius:50%;width:1.6rem;height:1.6rem;
+  display:grid;place-items:center;line-height:1;
+}
+
+/* ---- footer ---- */
+.foot{margin-top:4rem;padding-top:1.6rem;border-top:1px solid var(--line);font-size:.85rem;line-height:1.7;color:var(--ink-faint)}
+.foot h4{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);margin:1.6rem 0 .6rem;font-weight:400}
+.foot ul{padding-left:1.1rem;margin:0}
+.foot li{margin-bottom:.35rem}
+.foot a{color:var(--ink-soft);text-decoration:underline;text-underline-offset:2px;text-decoration-color:var(--line)}
+.foot a:hover{color:var(--ver);text-decoration-color:var(--ver)}
+.foot a:focus-visible{outline:2px solid var(--ver);outline-offset:2px}
+.caution{background:var(--surface-2);border-left:3px solid var(--alert);padding:.9rem 1.1rem;margin:1.2rem 0;font-size:.87rem;line-height:1.7;color:var(--ink-soft)}
+.caution b{color:var(--ink)}
+
+@media(max-width:560px){
+  .curves{grid-template-columns:1fr}
+  .bars.seq{grid-template-columns:1fr;grid-auto-flow:row}
+  .stat{grid-template-columns:4.4rem 1fr;gap:.7rem}
+}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="kicker">돈의 심리학 · story 4 보충</div>
+  <h1>가로저축과<br>세로저축</h1>
+  <p class="thesis">장기투자를 하라는데, 전세금은요? 애 학원비는요?<br>
+  <b>돈을 목적별로 나누지 마십시오. 회복 가능한 것과 불가능한 것으로 나누십시오.</b></p>
+</header>
+
+<section>
+  <div class="eyebrow">문제</div>
+  <h2>버핏은 한 번도 돈을 빼지 않았다</h2>
+  <p>워런 버핏의 재산 845억 달러 중 815억 달러는 65세 이후에 쌓였습니다. 75년간 복리가 한 번도 끊기지 않았기 때문입니다.</p>
+  <p>그런데 그는 <strong>전세금을 뺀 적도, 등록금을 낸 적도, 부모님 병원비로 계좌를 헌 적도 없습니다.</strong> 우리 곡선은 그렇게 생기지 않았습니다.</p>
+
+  <div class="curves">
+    <figure class="curve">
+      <figcaption>책이 그리는 곡선</figcaption>
+      <svg viewBox="0 0 200 90" role="img" aria-label="끊김 없이 매끄럽게 올라가는 지수 곡선">
+        <line class="c-axis" x1="8" y1="82" x2="192" y2="82"></line>
+        <path class="c-line c-a" d="M10 80 C 60 78, 110 68, 140 48 S 178 14, 190 10"></path>
+      </svg>
+    </figure>
+    <figure class="curve">
+      <figcaption>실제 사람의 곡선</figcaption>
+      <svg viewBox="0 0 200 90" role="img" aria-label="올라가다 떨어지기를 반복하는 톱니 모양 곡선">
+        <line class="c-axis" x1="8" y1="82" x2="192" y2="82"></line>
+        <path class="c-line c-b" d="M10 80 L40 62 L44 76 L74 54 L78 70 L108 44 L112 62 L146 34 L150 52 L190 26"></path>
+      </svg>
+    </figure>
+  </div>
+
+  <p>톱니를 만드는 사건들은 <strong>예외가 아니라 상수</strong>입니다. 하나도 안 겪는 사람은 없습니다.</p>
+  <div class="chain">
+    <i>결혼</i><u>→</u><i>내집마련</i><u>→</u><i>자녀 교육</i><u>→</u><i>부모 부양</i><u>→</u><i>본인 은퇴</i>
+  </div>
+  <p>그래서 “몇 년짜리 게임을 하시겠습니까?”라고 물으면 이런 답이 돌아옵니다. <em>“기간은 제가 정하는 게 아니라 인생이 정하는데요.”</em></p>
+</section>
+
+<section>
+  <div class="eyebrow">정의</div>
+  <h2>두 가지 방식</h2>
+
+  <div class="axes">
+    <div class="axis hor">
+      <div class="axis-h"><b>가로저축</b><span>순차 — 하나씩 해결하고 다음으로</span></div>
+      <div class="bars seq">
+        <div class="bar">결혼</div><div class="bar">내집</div><div class="bar">교육</div><div class="bar">노후</div>
+      </div>
+      <div class="axis-f">현장에서 사람들이 실제로 움직이는 방식</div>
+    </div>
+    <div class="axis ver">
+      <div class="axis-h"><b>세로저축</b><span>병렬 — 처음부터 목적별로 나눠 동시에</span></div>
+      <div class="bars par">
+        <div class="bar">결혼 자금</div><div class="bar">주택 자금</div><div class="bar">교육 자금</div><div class="bar">노후 자금</div>
+      </div>
+      <div class="axis-f">교과서가 가르치는 방식</div>
+    </div>
+  </div>
+
+  <p>재무 교육은 대부분 세로저축을 가르칩니다. 그런데 <strong>현장은 가로로 움직입니다.</strong> 왜 그럴까요.</p>
+</section>
+
+<section>
+  <div class="eyebrow">근거 1</div>
+  <h2>돈에는 이름표가 안 붙는다</h2>
+  <p>행동경제학자 리처드 세일러의 <strong>심리적 계좌</strong> 이론은, 사람이 돈에 라벨을 붙이고 항목별로 따로 관리한다는 것을 보여줍니다. 즉 <strong>버킷 나누기는 실제로 작동합니다.</strong></p>
+  <p>그런데 같은 연구가 이렇게 덧붙입니다.</p>
+  <blockquote class="pull">인지적 라벨링은 절대적이지 않다. 일정 임계점을 넘으면 사람은 라벨을 되돌리고, 그 돈을 다시 하나로 취급한다.</blockquote>
+  <p><strong>금액이 커지면 이름표가 풀립니다.</strong> “노후 자금”이라고 적어둬도, 전세금이 2억 모자라면 결국 그 계좌를 헙니다.</p>
+</section>
+
+<section>
+  <div class="eyebrow">근거 2</div>
+  <h2>실제로 헐고 있다</h2>
+  <p>미국의 퇴직연금 401(k)에서 관측된 <strong>누수(leakage)</strong> 데이터입니다. 세제 페널티가 걸려 있는데도 이렇습니다.</p>
+
+  <div class="ev">
+    <div class="ev-h">미국 401(k) 누수</div>
+    <div class="stats">
+      <div class="stat"><b>41.4%</b><span>이직·퇴직자가 은퇴계좌를 현금화 — 대부분 <strong>계좌 전액</strong></span></div>
+      <div class="stat"><b>90%</b><span>전체 누수 중 이직 시 현금화가 차지하는 비중</span></div>
+      <div class="stat"><b>20%</b><span>그 결과 은퇴 시점 잔고가 작아지는 폭</span></div>
+    </div>
+    <p class="ev-note">누수의 대부분이 <b>이직·퇴직</b>에서 발생합니다. 투자 판단 실패가 아니라 <b>인생 사건이 장기 계좌를 헙니다.</b> 페널티가 걸린 계좌가 이 정도라면, 페널티조차 없는 “노후용 통장”은 더 쉽게 헐립니다.</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">근거 3</div>
+  <h2>한국은 나눌 금융자산이 적다</h2>
+
+  <div class="ev">
+    <div class="ev-h">2025년 가계금융복지조사 · 가구 평균</div>
+    <div class="stats">
+      <div class="stat"><b>75.8%</b><span>실물자산 비중 (그중 부동산 71.1%)</span></div>
+      <div class="stat"><b>24.2%</b><span>금융자산 비중 — 1억 3,690만 원</span></div>
+      <div class="stat"><b>10배</b><span>서울 주택 가격 / 연소득 (KB 담보대출 이용자 기준)</span></div>
+    </div>
+    <p class="ev-note">자산의 <b>4분의 3이 부동산</b>이고, 나눌 수 있는 금융자산은 <b>4분의 1뿐</b>입니다. 세로저축이 비현실적으로 느껴지는 것은 의지가 부족해서가 아니라 <b>자산 구조 때문</b>입니다.</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">반론</div>
+  <h2>그런데 순수 가로도 안 된다</h2>
+  <p>“이거 끝나면 시작하자”의 <strong>그날이 오지 않습니다.</strong></p>
+  <p>40대 후반, 교육비가 정점일 때 부모님이 편찮으십니다. 그게 지나면 이미 은퇴가 코앞입니다. 이벤트는 순서대로 오는 게 아니라 <strong>겹쳐서</strong> 옵니다.</p>
+  <blockquote class="pull">이벤트를 다 넘기고 시작하면, 복리에 쓸 시간이 0이 된다.<small>버핏이 이긴 것은 22%라는 수익률이 아니라, 그 22%를 75년간 반복했다는 사실입니다.</small></blockquote>
+</section>
+
+<section>
+  <div class="eyebrow">해답</div>
+  <h2>목적이 아니라 회복 가능성으로 나눈다</h2>
+  <p>가로냐 세로냐를 정하는 것이 아닙니다. 항목마다 이렇게 묻습니다. <strong>“나중에 시작해도 회복되는가?”</strong></p>
+
+  <div class="tw">
+    <table>
+      <thead><tr><th>항목</th><th>나중에 시작하면</th><th>배치</th></tr></thead>
+      <tbody>
+        <tr><td>일반 투자 적립</td><td>금액을 키워 따라잡을 수 있다</td><td><span class="tag h">가로 · 뒤로</span></td></tr>
+        <tr><td>연금 세액공제</td><td>매년 소멸한다. 올해 안 넣으면 영원히 사라진다</td><td><span class="tag v">세로 · 지금</span></td></tr>
+        <tr><td>보장성 보험</td><td>나이와 병력이 쌓이면 가입 자체가 거절된다</td><td><span class="tag v">세로 · 지금</span></td></tr>
+        <tr><td>비상금</td><td>없으면 이벤트 때 더 비싼 돈(대출)을 쓰게 된다</td><td><span class="tag v">세로 · 지금</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>보험은 특히 <strong>돈의 문제가 아니라 자격의 문제</strong>입니다. 연금은 늦게 시작해도 금액을 키워 일부 만회할 수 있지만, 건강을 잃으면 <strong>돈이 있어도 살 수 없습니다.</strong></p>
+
+  <blockquote class="pull">세로로 떼야 할 돈은 생각보다 적습니다.<small>연금 세액공제 한도 + 최소 보장성 보험 + 비상금 적립. 대략 월 30~60만 원 수준입니다. 이 돈은 전세금과 싸우지 않습니다.</small></blockquote>
+
+  <p>그러므로 <strong>“최소한의 이벤트는 넘어야 장기투자가 가능하다”는 감각은 맞습니다.</strong> 단서는 하나뿐입니다 — <em>회복 불가능한 것만 빼고.</em></p>
+</section>
+
+<section>
+  <div class="eyebrow">반전</div>
+  <h2>비상금은 투자의 경쟁자가 아니다</h2>
+  <p>비상금은 흔히 “수익률 0%로 놀고 있는 돈”으로 취급됩니다. 데이터는 정반대를 말합니다.</p>
+
+  <div class="ev">
+    <div class="ev-h">Vanguard(2024) · 비상금 $2,000 이상 보유자</div>
+    <div class="stats">
+      <div class="stat"><b>-43%p</b><span>이직 시 은퇴계좌를 현금화할 확률</span></div>
+      <div class="stat"><b>-17%</b><span>긴급인출을 할 확률</span></div>
+      <div class="stat"><b>+2.2%p</b><span>그런데 은퇴계좌 <strong>기여율은 오히려 높다</strong></span></div>
+    </div>
+    <p class="ev-note">BlackRock 조사에서는 비상금이 부족한 사람의 긴급인출 확률이 <b>13배</b>였습니다.</p>
+  </div>
+
+  <p>비상금을 가진 사람이 장기 계좌에 <strong>더 많이 넣습니다.</strong> 둘은 경쟁 관계가 아니라 보완 관계입니다.</p>
+  <blockquote class="pull">비상금은 수익률 0%짜리 낭비가 아니라,<br>복리 곡선이 끊기지 않게 하는 보험료다.</blockquote>
+</section>
+
+<section>
+  <div class="eyebrow">실행</div>
+  <h2>오늘 확인할 세 가지</h2>
+  <ol class="check">
+    <li>생활비 <strong>3~6개월치</strong> 비상금이 따로 있는가?</li>
+    <li>최소한의 <strong>보장성 보험</strong>이 준비되어 있는가?</li>
+    <li>올해 <strong>연금 세액공제 한도</strong>를 채웠는가? (연금저축 600만 원 · IRP 합산 900만 원)</li>
+  </ol>
+  <p>이 셋이 모두 “예”라면, <strong>나머지는 큰 이벤트를 먼저 넘겨도 됩니다.</strong> 셋 중 하나라도 “아니오”라면, 그것부터가 오늘의 과제입니다.</p>
+
+  <blockquote class="pull">돈을 목적별로 나누려 하지 말고,<br>회복 가능한 것과 불가능한 것을 나눠라.<small>회복 불가능한 것 — 지금, 소액이라도, 무조건.<br>회복 가능한 것 — 큰 이벤트를 넘긴 뒤 몰아서.</small></blockquote>
+</section>
+
+<footer class="foot">
+  <h4>강사 메모</h4>
+  <div class="caution">
+    <b>미국 데이터는 “미국에서는 이렇더라” 수준으로 인용할 것.</b> 401(k) 누수는 미국 제도(이직 시 계좌 이전 마찰, 조기인출 페널티 구조)의 산물이며, 한국 퇴직연금·연금저축과는 제도가 다릅니다. 단정하면 반박당합니다.<br><br>
+    <b>“자가 마련이 곧 장기투자였다”는 과거 데이터입니다.</b> 인구 구조와 금리 환경이 달라졌으므로 앞으로도 같으리라는 보장은 없습니다. 과거와 미래를 구분해 말할 것.<br><br>
+    <b>20~30대 청중에게 “노후자금 따로 20년”을 밀지 말 것.</b> 현실과 동떨어져 신뢰를 잃습니다. 회복 가능성 기준으로 바꿔 제시하십시오.
+  </div>
+
+  <h4>출처</h4>
+  <ul>
+    <li><a href="https://www.anderson.ucla.edu/faculty_pages/keith.chen/negot.%20papers/Thaler_MentalAccounting99.pdf">Thaler, “Mental Accounting Matters” (1999)</a></li>
+    <li><a href="https://crr.bc.edu/the-causes-and-effects-of-leakage-from-401k-accounts/">Center for Retirement Research, “The Causes and Effects of Leakage from 401(k) Accounts”</a></li>
+    <li><a href="https://pubsonline.informs.org/doi/10.1287/mksc.2022.1404">“Cashing Out Retirement Savings at Job Separation”, <i>Marketing Science</i></a></li>
+    <li><a href="https://corporate.vanguard.com/content/dam/corp/research/pdf/liquidity_without_leakage.pdf">Vanguard, “Liquidity Without Leakage” (2024)</a></li>
+    <li><a href="https://www.plansponsor.com/emergency-savings-serve-as-buffer-to-protect-retirement-assets/">PLANSPONSOR, “Emergency Savings Serve as Buffer To Protect Retirement Assets”</a></li>
+    <li><a href="https://www.bok.or.kr/portal/bbs/B0000501/view.do?menuNo=201264&nttId=10094917">2025년 가계금융복지조사 결과 (한국은행)</a></li>
+    <li><a href="https://data.kbland.kr/kbstats/pir">KB부동산 데이터허브 — 소득 대비 주택가격 비율(PIR)</a></li>
+  </ul>
+  <p style="margin-top:1.4rem">한국 통계는 2차 보도를 통해 확인한 수치입니다. 강의 사용 전 원문 재확인을 권합니다.</p>
+</footer>
+
+</div>

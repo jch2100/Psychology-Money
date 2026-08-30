@@ -58,6 +58,12 @@
 | [D01](design/D01-life-events-and-compounding.md) | 생활 변수를 반영한 복리 — 가로/세로 저축, '회복 가능성' 기준 | story 4 |
 | [D02](design/D02-evidence-pack.md) | **D01 근거자료** — 401(k) 누수, Vanguard 비상금 연구, 한국 자산구조 | D01 |
 
+## 학습자 배포용
+
+| | 내용 | 출처 노트 |
+|---|---|---|
+| [가로저축과 세로저축](../teaching/horizontal-vertical-saving.html) | D01+D02를 학습자용 한 편으로 압축 | D01, D02 |
+
 ---
 
 ## 아직 정리 안 된 사진

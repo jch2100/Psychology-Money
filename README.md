@@ -21,6 +21,7 @@ images/raw/      원본 사진 (0001, 0002, ... 순번)
 notes/           사진에서 옮긴 텍스트 + 해석 + 강의 활용 메모
 notes/experience/ 내 개인 경험 (책 내용과 분리해서 축적)
 notes/design/     책에 없는 부분 — 내가 채워 넣는 강의 설계
+teaching/         학습자 배포용 정리물 (HTML)
 notes/LOG.md     축적 로그 (사진 번호 ↔ 노트 대응표)
 templates/       기록 양식
 ```
@@ -39,6 +40,7 @@ templates/       기록 양식
 
 - 사진: 37장
 - 노트: 9편 + 목차 + 개인경험 2편 + 강의설계 2편
+- 학습자 자료: [가로저축과 세로저축](teaching/horizontal-vertical-saving.html) → https://claude.ai/code/artifact/05d591c2-7ea8-4a7b-8d1e-f7149ec75734
 - 현재 위치: **story 4 「시간이 너희를 부유케 하리니」 ✅ 완독**
 - 다음: story 5 「부자가 될 것인가, 부자로 남을 것인가」 (p.97)
 - 🔑 **내 '충분히' 문장 작성 완료** → [E02](notes/experience/E02-my-enough.md)
