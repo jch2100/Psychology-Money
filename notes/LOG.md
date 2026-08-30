@@ -11,6 +11,10 @@
 | 0007 | `images/raw/0007-p21-20chapters.jpg` | p.21 20장 구성 · 시작 | [0003](0003-intro-soft-skill.md) |
 | 0008 | `images/raw/0008-toc-1.jpg` | 목차 (들어가는 글~story 11) | [목차](00-TOC.md) |
 | 0009 | `images/raw/0009-toc-2.jpg` | 목차 (story 12~참고자료) | [목차](00-TOC.md) |
+| 0010 | `images/raw/0010-s1-title.jpg` | story 1 표제 (No One's Crazy) | [0004](0004-story1-no-ones-crazy.md) |
+| 0011 | `images/raw/0011-s1-quote.jpg` | 0.00000001% vs 80% | [0004](0004-story1-no-ones-crazy.md) |
+| 0012 | `images/raw/0012-p32-cohort.jpg` | p.32 1970 vs 1950년생 | [0004](0004-story1-no-ones-crazy.md) |
+| 0013 | `images/raw/0013-p33-chart.jpg` | p.33 그래프 10대·20대에 경험한 주식시장 | [0004](0004-story1-no-ones-crazy.md) |
 
 ---
 
