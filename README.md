@@ -38,6 +38,9 @@ templates/       기록 양식
 
 ## 진행 상황
 
+👉 **[STATUS.md — 중간정리·다음 시작점](STATUS.md)**
+
+
 - 사진: 37장
 - 노트: 9편 + 목차 + 개인경험 2편 + 강의설계 2편
 - 학습자 자료: [가로저축과 세로저축](teaching/horizontal-vertical-saving.html) → https://claude.ai/code/artifact/05d591c2-7ea8-4a7b-8d1e-f7149ec75734
