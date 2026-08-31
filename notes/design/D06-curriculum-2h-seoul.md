@@ -275,7 +275,7 @@ story 19(겸손)·story 12(그레이엄의 자기부정) 계열의 좋은 재료
     ├ 숙제 7 (릭 게린 한국판)
     └ 숙제 2 (D04 롤모델)
 [4] 꼭지별 상세 스크립트          ✅ 완료 → 교안 워크스페이스 LESSON.md
-[5] 슬라이드 제작                ✅ 완료 48장 (verify fail 0 / 오버플로 0)
+[5] 슬라이드 제작                ✅ 완료 173장 (fail 0 / 오버플로 0 / 편중 32%)
 [6] D07 — 30~40대 직장인 버전 (story 4·6·10 + D01·D05 + 골대 프레임이 본편)
 ```
 
@@ -299,7 +299,8 @@ C:\Users\user\Google 드라이브\교안\03_FINANCE\돈의심리학_서울시민
   COURSE.md              메타데이터 (상태: 빌드)
   draft/LESSON.md        교안 원고 — 슬라이드 단위 발화 포함 (verify-lesson fail 0)
   draft/SLIDE_PLAN.md    48장 배치 계획 + 장수 상한 계산
-  output/deck.html       슬라이드 48장 (verify-slide fail 0 / 렌더 오버플로 0)
+  output/deck.html       슬라이드 173장 (fail 0 / 오버플로 0)
+  draft/SLIDE_PLAN.md    배치 계획 · 타입 분포 · 강의 전 남은 일
 ```
 
 **분업**: 이 리포 = 원전 노트와 설계 판단의 기록 / 교안 워크스페이스 = 실제 강의 산출물.
