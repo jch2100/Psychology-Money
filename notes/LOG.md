@@ -78,6 +78,7 @@
 | [D03](design/D03-korea-crisis-list.md) | 🔴 **한국판 「그럼에도 불구하고」 리스트** — 설계 완료, 데이터 조사 필요 | story 5 |
 | [D04](design/D04-wealthy-persona.md) | **자산 부자의 페르소나 + 한국형 롤모델** (이수영·유일한) | story 9 |
 | [D05](design/D05-reversibility.md) | 🔴 **가역성 설계** — 12~14장 how-to 공백 메우기. 골격 완료, 수치 미확보 | story 12~14 |
+| [D06](design/D06-curriculum-2h-seoul.md) | 🟡 **커리큘럼 설계서** — 서울시민대학 2시간 온라인·60대·인식전환. 5꼭지 구성 | 전권 |
 
 ## 학습자 배포용
 
