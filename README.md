@@ -41,10 +41,11 @@ templates/       기록 양식
 👉 **[STATUS.md — 중간정리·다음 시작점](STATUS.md)**
 
 
-- 사진: 111장
-- 노트: 20편 + 목차 + 개인경험 2편 + 강의설계 5편
+- 사진: 115장
+- 노트: 21편 + 목차 + 개인경험 3편 + 강의설계 5편
 - 학습자 자료: [가로저축과 세로저축](teaching/horizontal-vertical-saving.html) → https://claude.ai/code/artifact/05d591c2-7ea8-4a7b-8d1e-f7149ec75734
-- 현재 위치: **story 15 「보이지 않는 가격표」 ✅ 완독** (12~15 사진 일부 미확보)
-- 다음: story 16 「너와 나는 다른 게임을 하고 있다」 (p.267)
+- 현재 위치: **story 16 「너와 나는 다른 게임을 하고 있다」 ✅ 완독** (12~16 사진 일부 미확보)
+- 다음: story 17 「비관주의의 유혹」 (p.283) — 볼테르 회수 지점
 - 🔑 **내 '충분히' 문장 작성 완료** → [E02](notes/experience/E02-my-enough.md)
-- 강의 채택: story 1 ⭕ / story 2 △ / story 3 ⭕ / story 4 ⭕ / story 5 ⭕ / story 6 ⭕ / story 7 ⭕ / story 8 ⭕ / story 9 ⭕ / story 10 ⭕ / story 11 ⭕ / story 12·13·14·15 ⭕ **한 꼭지로 묶음** (how-to는 [D05](notes/design/D05-reversibility.md)로 보완)
+- 🔑 **내 투자 미션 선언문 초안** (43세 → 55세 배당 전환) → [E03](notes/experience/E03-my-investment-game.md)
+- 강의 채택: story 1 ⭕ / story 2 △ / story 3 ⭕ / story 4 ⭕ / story 5 ⭕ / story 6 ⭕ / story 7 ⭕ / story 8 ⭕ / story 9 ⭕ / story 10 ⭕ / story 11 ⭕ / story 12·13·14·15 ⭕ **한 꼭지로 묶음** / story 16 ⭕ **독립 꼭지** (how-to는 [D05](notes/design/D05-reversibility.md)로 보완)

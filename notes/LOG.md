@@ -36,6 +36,7 @@
 | 0093~0099 | `images/raw/0093-p221-card-counting.jpg` ~ `0099-s13-big-lesson.jpg` | **story 13** 카드 카운팅·겸손·케빈 루이스 100배·그레이엄 안전마진·게이츠/버핏 현금·3분의 1 룰·Big Lesson | [0018](0018-story13-margin-of-safety.md) |
 | 0100~0105 | `images/raw/0100-s14-title.jpg` ~ `0105-s14-big-lesson.jpg` | **story 14** 표제·길버트 '역사가 끝났다는 착각'·양극단 회피·카너먼 매몰비용·Big Lesson | [0019](0019-story14-youll-change.md) |
 | 0106~0111 | `images/raw/0106-s15-title.jpg` ~ `0111-s15-big-lesson.jpg` | **story 15** 표제·S&P 119배·3만 달러 자동차 3지선다·다우 음영 그래프·넷플릭스 94%·자동차 절도·Big Lesson | [0020](0020-story15-nothings-free.md) |
+| 0112~0115 | `images/raw/0112-s16-title.jpg` ~ `0115-s16-big-lesson.jpg` | **story 16** 표제·단일 합리적 가격이라는 나쁜 개념·CNBC 평론가·Big Lesson(네 질문) | [0021](0021-story16-you-and-me.md) |
 | 0080~0085 | `images/raw/0080-s11-title.jpg` ~ `0085-p194-bogle.jpg` | **story 11** 스프레드시트가 아니다·마코위츠 50:50·츠바이크·보글 | [0016](0016-story11-reasonable-over-rational.md) |
 | 0073~0079 | `images/raw/0073-s10-title.jpg` ~ `0079-s10-big-lesson.jpg` | **story 10** 세 부류·석유효율·겸손·이유 없는 저축 | [0015](0015-story10-just-save.md) |
 | 0066~0072 | `images/raw/0066-s9-title.jpg` ~ `0072-s9-big-lesson.jpg` | **story 9** 빌 만·부의 정의·다이어트 비유·롤모델 부재 | [0014](0014-story9-rich-vs-wealthy.md) |
@@ -59,6 +60,7 @@
 |---|---|---|
 | [E01](experience/E01-2009-samsung.md) | 같은 강의실 다른 월급 — "불공평"이 아니라 "다르다" | 2009 |
 | [E02](experience/E02-my-enough.md) | 내 '충분함'의 좌표 — 전원주택 딜레마 **+ 내 '충분히' 문장(일/돈/삶/제약)** | 현재 |
+| [E03](experience/E03-my-investment-game.md) | **내 게임의 정의 — 투자 미션 선언문 초안.** 43세 → 55세 배당 전환, 배당 50~60%→80% | 2026~2038 |
 
 ---
 
