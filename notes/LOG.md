@@ -32,6 +32,7 @@
 | 0028 | `images/raw/0028-p72-gupta-fall.jpg` | p.72 내부자거래와 추락 | [0008](0008-story3-never-enough.md) |
 | 0029 | `images/raw/0029-p73-madoff.jpg` | p.73 매도프 · "왜 더 원했는가" | [0008](0008-story3-never-enough.md) |
 | 0030 | `images/raw/0030-p75-buffett-ltcm.jpg` | p.75 LTCM · **워런 버핏의 말(제사 회수)** | [0008](0008-story3-never-enough.md) |
+| 0066~0072 | `images/raw/0066-s9-title.jpg` ~ `0072-s9-big-lesson.jpg` | **story 9** 빌 만·부의 정의·다이어트 비유·롤모델 부재 | [0014](0014-story9-rich-vs-wealthy.md) |
 | 0062~0065 | `images/raw/0062-s8-title.jpg` ~ `0065-s8-big-lesson.jpg` | **story 8** 주차대행·역설·아들에게 쓴 편지·Big Lesson | [0013](0013-story8-man-in-the-car.md) |
 | 0054~0061 | `images/raw/0054-s7-title.jpg` ~ `0061-s7-big-lesson.jpg` | **story 7** 배당금·리액턴스·갤럽·필레머 1000명·Big Lesson | [0012](0012-story7-control-over-time.md) |
 | 0048~0053 | `images/raw/0048-s6-title.jpg` ~ `0053-s6-big-lesson.jpg` | **story 6** 표제·베르그루엔·롱테일·소로스·Big Lesson | [0011](0011-story6-tails-you-win.md) |
@@ -62,6 +63,7 @@
 | [D01](design/D01-life-events-and-compounding.md) | 생활 변수를 반영한 복리 — 가로/세로 저축, '회복 가능성' 기준 | story 4 |
 | [D02](design/D02-evidence-pack.md) | **D01 근거자료** — 401(k) 누수, Vanguard 비상금 연구, 한국 자산구조 | D01 |
 | [D03](design/D03-korea-crisis-list.md) | 🔴 **한국판 「그럼에도 불구하고」 리스트** — 설계 완료, 데이터 조사 필요 | story 5 |
+| [D04](design/D04-wealthy-persona.md) | **자산 부자의 페르소나 + 한국형 롤모델** (이수영·유일한) | story 9 |
 
 ## 학습자 배포용
 
