@@ -75,10 +75,11 @@
 |---|---|---|
 | [D01](design/D01-life-events-and-compounding.md) | 생활 변수를 반영한 복리 — 가로/세로 저축, '회복 가능성' 기준 | story 4 |
 | [D02](design/D02-evidence-pack.md) | **D01 근거자료** — 401(k) 누수, Vanguard 비상금 연구, 한국 자산구조 | D01 |
-| [D03](design/D03-korea-crisis-list.md) | 🔴 **한국판 「그럼에도 불구하고」 리스트** — 설계 완료, 데이터 조사 필요 | story 5 |
+| [D03](design/D03-korea-crisis-list.md) | 🟡 **한국판 「그럼에도 불구하고」 리스트** — 1차 조사 완료. **2026년이 리스트의 마지막 줄** | story 5 |
 | [D04](design/D04-wealthy-persona.md) | **자산 부자의 페르소나 + 한국형 롤모델** (이수영·유일한) | story 9 |
 | [D05](design/D05-reversibility.md) | 🔴 **가역성 설계** — 12~14장 how-to 공백 메우기. 골격 완료, 수치 미확보 | story 12~14 |
-| [D06](design/D06-curriculum-2h-seoul.md) | 🟡 **커리큘럼 설계서** — 서울시민대학 2시간 온라인·60대·인식전환. 5꼭지 구성 | 전권 |
+| [D06](design/D06-curriculum-2h-seoul.md) | 🟢 **커리큘럼 설계서 r2** — 서울시민대학 2시간 온라인·60대·인식전환. 5꼭지 105분 확정 | 전권 |
+| [D08](design/D08-korea-cohort-curve.md) | 🟡 **한국 코호트 곡선** — story 1의 한국판. 20대 10배 vs 30~40대 16년 박스권 | story 1 |
 
 ## 학습자 배포용
 
