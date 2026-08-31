@@ -80,6 +80,7 @@
 | [D05](design/D05-reversibility.md) | 🔴 **가역성 설계** — 12~14장 how-to 공백 메우기. 골격 완료, 수치 미확보 | story 12~14 |
 | [D06](design/D06-curriculum-2h-seoul.md) | 🟢 **커리큘럼 설계서 r2** — 서울시민대학 2시간 온라인·60대·인식전환. 5꼭지 105분 확정 | 전권 |
 | [D08](design/D08-korea-cohort-curve.md) | 🟡 **한국 코호트 곡선** — story 1의 한국판. 20대 10배 vs 30~40대 16년 박스권 | story 1 |
+| [D09](design/D09-content-inventory.md) | 🟡 **본편 컨텐츠 인벤토리** — 꼭지별 재료·용어·수치·퀴즈. 본인 주장 우선 | story 1~11 |
 
 ## 학습자 배포용
 
