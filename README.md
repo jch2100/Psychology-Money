@@ -42,9 +42,9 @@ templates/       기록 양식
 
 
 - 사진: 37장
-- 노트: 10편 + 목차 + 개인경험 2편 + 강의설계 3편
+- 노트: 11편 + 목차 + 개인경험 2편 + 강의설계 3편
 - 학습자 자료: [가로저축과 세로저축](teaching/horizontal-vertical-saving.html) → https://claude.ai/code/artifact/05d591c2-7ea8-4a7b-8d1e-f7149ec75734
-- 현재 위치: **story 5 「부자가 될 것인가, 부자로 남을 것인가」 ✅ 완독**
-- 다음: story 6 「꼬리가 몸통을 흔든다」 (p.117)
+- 현재 위치: **story 6 「꼬리가 몸통을 흔든다」 ✅ 완독**
+- 다음: story 7 「'돈이 있다'는 것의 의미」 (p.137)
 - 🔑 **내 '충분히' 문장 작성 완료** → [E02](notes/experience/E02-my-enough.md)
-- 강의 채택: story 1 ⭕ / story 2 △ / story 3 ⭕ / story 4 ⭕ / story 5 ⭕
+- 강의 채택: story 1 ⭕ / story 2 △ / story 3 ⭕ / story 4 ⭕ / story 5 ⭕ / story 6 ⭕
