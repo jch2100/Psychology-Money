@@ -41,11 +41,11 @@ templates/       기록 양식
 👉 **[STATUS.md — 중간정리·다음 시작점](STATUS.md)**
 
 
-- 사진: 129장
-- 노트: 23편 + 목차 + 개인경험 3편 + 강의설계 5편
+- 사진: 139장
+- 노트: 24편 + 목차 + 개인경험 3편 + 강의설계 5편
 - 학습자 자료: [가로저축과 세로저축](teaching/horizontal-vertical-saving.html) → https://claude.ai/code/artifact/05d591c2-7ea8-4a7b-8d1e-f7149ec75734
-- 현재 위치: **story 18 「"간절하면 믿게 되는 법이죠"」 ✅ 완독** (사진 절반 이상 미확보)
-- 다음: story 19 「돈에 대한 보편적인 진실 몇 가지」 (p.327)
+- 현재 위치: **story 19 「돈에 대한 보편적인 진실 몇 가지」 ✅ 완독**
+- 다음: **story 20 「나의 투자 이야기」 (p.341) — 마지막 장**
 - 🔑 **내 '충분히' 문장 작성 완료** → [E02](notes/experience/E02-my-enough.md)
 - 🔑 **내 투자 미션 선언문 초안** (43세 → 55세 배당 전환) → [E03](notes/experience/E03-my-investment-game.md)
-- 강의 채택: story 1 ⭕ / story 2 △ / story 3 ⭕ / story 4 ⭕ / story 5 ⭕ / story 6 ⭕ / story 7 ⭕ / story 8 ⭕ / story 9 ⭕ / story 10 ⭕ / story 11 ⭕ / story 12·13·14·15 ⭕ **한 꼭지로 묶음** / story 16 ⭕ **독립 꼭지** / story 17 ⭕ (**story 5와 세트**) / story 18 △ (**16·17과 묶어서만**) (how-to는 [D05](notes/design/D05-reversibility.md)로 보완)
+- 강의 채택: story 1 ⭕ / story 2 △ / story 3 ⭕ / story 4 ⭕ / story 5 ⭕ / story 6 ⭕ / story 7 ⭕ / story 8 ⭕ / story 9 ⭕ / story 10 ⭕ / story 11 ⭕ / story 12·13·14·15 ⭕ **한 꼭지로 묶음** / story 16 ⭕ **독립 꼭지** / story 17 ⭕ (**story 5와 세트**) / story 18 △ (**16·17과 묶어서만**) / story 19 ⭕ (**강의 설계용 체크리스트**) (how-to는 [D05](notes/design/D05-reversibility.md)로 보완)

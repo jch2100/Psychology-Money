@@ -39,6 +39,7 @@
 | 0112~0115 | `images/raw/0112-s16-title.jpg` ~ `0115-s16-big-lesson.jpg` | **story 16** 표제·단일 합리적 가격이라는 나쁜 개념·CNBC 평론가·Big Lesson(네 질문) | [0021](0021-story16-you-and-me.md) |
 | 0116~0122 | `images/raw/0116-s17-title.jpg` ~ `0122-s17-big-lesson.jpg` | **story 17** 표제·1946년 일본·비관이 똑똑해 보이는 이유·1929년 2.5%·레스터 브라운 석유·1889년 비행기 불가능·Big Lesson | [0022](0022-story17-seduction-of-pessimism.md) |
 | 0123~0129 | `images/raw/0123-s18-title.jpg` ~ `0129-s18-big-lesson.jpg` | **story 18** 표제·내러티브 손실·연준 2007년 예측·인센티브·리델 하트·카너먼·Big Lesson | [0023](0023-story18-when-youll-believe-anything.md) |
+| 0130~0139 | `images/raw/0130-s19-title.jpg` ~ `0139-s19-big-lesson.jpg` | **story 19** 표제·의사/재무상담가 비유·열세 항목(겸손~혼란 존중)·**수수료 vs 벌금**·Big Lesson | [0024](0024-story19-all-together-now.md) |
 | 0080~0085 | `images/raw/0080-s11-title.jpg` ~ `0085-p194-bogle.jpg` | **story 11** 스프레드시트가 아니다·마코위츠 50:50·츠바이크·보글 | [0016](0016-story11-reasonable-over-rational.md) |
 | 0073~0079 | `images/raw/0073-s10-title.jpg` ~ `0079-s10-big-lesson.jpg` | **story 10** 세 부류·석유효율·겸손·이유 없는 저축 | [0015](0015-story10-just-save.md) |
 | 0066~0072 | `images/raw/0066-s9-title.jpg` ~ `0072-s9-big-lesson.jpg` | **story 9** 빌 만·부의 정의·다이어트 비유·롤모델 부재 | [0014](0014-story9-rich-vs-wealthy.md) |
