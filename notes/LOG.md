@@ -81,6 +81,7 @@
 | [D06](design/D06-curriculum-2h-seoul.md) | 🟢 **커리큘럼 설계서 r2** — 서울시민대학 2시간 온라인·60대·인식전환. 5꼭지 105분 확정 | 전권 |
 | [D08](design/D08-korea-cohort-curve.md) | 🟡 **한국 코호트 곡선** — story 1의 한국판. 20대 10배 vs 30~40대 16년 박스권 | story 1 |
 | [D09](design/D09-content-inventory.md) | 🟡 **본편 컨텐츠 인벤토리** — 꼭지별 재료·용어·수치·퀴즈. 본인 주장 우선 | story 1~11 |
+| [D07](design/D07-curriculum-2h-workers.md) | 🟡 **커리큘럼 설계서 — 30~40대 직장인 2시간.** story 4·6·10 + D01·D05 + 골대 | 전권 |
 
 ## 학습자 배포용
 
