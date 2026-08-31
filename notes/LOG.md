@@ -32,6 +32,7 @@
 | 0028 | `images/raw/0028-p72-gupta-fall.jpg` | p.72 내부자거래와 추락 | [0008](0008-story3-never-enough.md) |
 | 0029 | `images/raw/0029-p73-madoff.jpg` | p.73 매도프 · "왜 더 원했는가" | [0008](0008-story3-never-enough.md) |
 | 0030 | `images/raw/0030-p75-buffett-ltcm.jpg` | p.75 LTCM · **워런 버핏의 말(제사 회수)** | [0008](0008-story3-never-enough.md) |
+| 0080~0085 | `images/raw/0080-s11-title.jpg` ~ `0085-p194-bogle.jpg` | **story 11** 스프레드시트가 아니다·마코위츠 50:50·츠바이크·보글 | [0016](0016-story11-reasonable-over-rational.md) |
 | 0073~0079 | `images/raw/0073-s10-title.jpg` ~ `0079-s10-big-lesson.jpg` | **story 10** 세 부류·석유효율·겸손·이유 없는 저축 | [0015](0015-story10-just-save.md) |
 | 0066~0072 | `images/raw/0066-s9-title.jpg` ~ `0072-s9-big-lesson.jpg` | **story 9** 빌 만·부의 정의·다이어트 비유·롤모델 부재 | [0014](0014-story9-rich-vs-wealthy.md) |
 | 0062~0065 | `images/raw/0062-s8-title.jpg` ~ `0065-s8-big-lesson.jpg` | **story 8** 주차대행·역설·아들에게 쓴 편지·Big Lesson | [0013](0013-story8-man-in-the-car.md) |
