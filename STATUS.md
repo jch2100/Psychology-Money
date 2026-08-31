@@ -10,7 +10,8 @@
 >
 > **읽는 순서**: 이 문서 → [8. 작업 방식](#8-작업-방식-반드시-유지할-것) → 해당 story 노트
 > **작업 흐름**: 사진 업로드 → `images/raw/`에 순번 저장 → `notes/00NN-storyN-*.md` 작성 → LOG·STATUS·README 갱신 → 커밋·푸시
-> **브랜치**: `claude/psychology-of-money-reading-x191zg`
+> **브랜치**: `claude/status-review-story-12-rer879` ← **현재 작업 브랜치**
+> (story 1~11은 `claude/psychology-of-money-reading-x191zg`에서 시작 → 12부터 위 브랜치로 이어짐)
 
 ---
 
@@ -353,8 +354,8 @@ images/raw/       원본 사진 (0001~ 순번, 파일명에 내용 표기)
 
 ```bash
 git add -A && git -c user.email=ckohoon@gmail.com -c user.name="ckohoon" \
-  commit -q -m "story N 완독: 핵심 내용 요약" \
-  && git push -u origin claude/psychology-of-money-reading-x191zg
+  commit -q -m "요약" \
+  && git push -u origin claude/status-review-story-12-rer879
 ```
 
 ### ⑤ 네트워크 제약 (이 환경)
@@ -491,3 +492,67 @@ git add -A && git -c user.email=ckohoon@gmail.com -c user.name="ckohoon" \
 | **설계/클로징** | story 19·20 | 체크리스트 + **수미상관 클로징** |
 
 → **총 11~12꼭지.** 2시간 강의라면 여기서 다시 절반을 버려야 한다. **그래서 조건 확정이 먼저다.**
+
+
+---
+
+## 11. 🖥️ 로컬 환경 이전 (2026-08-31 결정)
+
+**슬라이드 제작부터는 로컬에서 작업한다.** 클라우드 환경에서 계속하면 안 되는 이유가 명확히 확인됐다.
+
+### 왜 로컬이어야 하나 (실측)
+
+| 항목 | 클라우드 환경 실측 | 영향 |
+|---|---|---|
+| **한글 폰트** | ❌ **없음.** WenQuanYi(중국어)·Unifont만 존재 | **한글 PPTX 렌더링 검증 불가.** 줄바꿈·자간·잘림을 눈으로 못 봄 |
+| **python-pptx** | ❌ 미설치 | 매번 설치 필요 |
+| LibreOffice | ⭕ 있음 | 있어도 **폰트가 없어 렌더링이 무의미** |
+| **.pptx 육안 확인** | ❌ 불가 | PowerPoint/Keynote로 열어봐야 함 |
+| 정부·기관 사이트 | ❌ 일부 차단 (9절) | **숙제 5건 조사에 불리** |
+| 컨테이너 | 비활성 시 회수 | 중간 산출물 소실 위험 |
+
+> **결정적 이유는 폰트다.** `autoresearch` 스킬은 *생성 → 렌더링 → 점수화 → 수정* 루프인데,
+> 한글 폰트가 없으면 **렌더링 단계가 무의미**해져 루프 자체가 성립하지 않는다.
+
+### 로컬 착수 명령
+
+```bash
+# 리포가 약 1GB(사진 990MB)이므로 얕은 클론 권장
+git clone --depth 1 -b claude/status-review-story-12-rer879 \
+  https://github.com/jch2100/Psychology-Money.git
+cd Psychology-Money
+
+# 필요 패키지
+pip install python-pptx pillow
+
+# 한글 폰트 확인 (macOS는 기본 탑재, Linux는 설치 필요)
+fc-list :lang=ko | head
+```
+
+**로컬에서 Claude Code 실행 후 첫 지시**:
+> `STATUS.md`와 `notes/design/D06-curriculum-2h-seoul.md`를 읽고 이어서 진행.
+
+### 브랜치 정리 (권장)
+
+현재 히스토리가 두 브랜치에 걸쳐 있다.
+
+- `claude/psychology-of-money-reading-x191zg` — story 1~11 (구)
+- `claude/status-review-story-12-rer879` — **story 12~20 + 설계 (현재, 최신)**
+
+**후자에 전부 들어 있으므로 이것만 쓰면 된다.**
+정리하려면 로컬에서 `main` 브랜치를 만들어 합치는 것을 권장.
+
+### 로컬로 넘길 작업
+
+| 작업 | 이유 |
+|---|---|
+| **숙제 5건 조사** (D03 최우선) | 차단 사이트 접근 |
+| **꼭지별 상세 스크립트** | (클라우드에서도 가능하나 함께 옮기는 게 낫다) |
+| **슬라이드 제작** | 폰트·렌더링 검증 필수 |
+| **D07 직장인 버전** | 이후 |
+
+### ⚠️ 로컬 이전 시 주의
+
+- **`images/raw/`는 슬라이드 제작에 쓰지 않는다.** 책 사진은 저작물이다.
+  → 강의 슬라이드에는 **본문 인용(짧게, 출처 명시)만** 쓰고 사진은 넣지 말 것
+- 사진은 **노트 검증용 원본**으로만 보관
