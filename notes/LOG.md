@@ -34,6 +34,7 @@
 | 0030 | `images/raw/0030-p75-buffett-ltcm.jpg` | p.75 LTCM · **워런 버핏의 말(제사 회수)** | [0008](0008-story3-never-enough.md) |
 | 0086~0092 | `images/raw/0086-s12-title.jpg` ~ `0092-s12-big-lesson.jpg` | **story 12** 표제·일곱 명·여덟 사건·탈레브 후쿠시마·구조 변화·그레이엄 자기부정·Big Lesson | [0017](0017-story12-surprise.md) |
 | 0093~0099 | `images/raw/0093-p221-card-counting.jpg` ~ `0099-s13-big-lesson.jpg` | **story 13** 카드 카운팅·겸손·케빈 루이스 100배·그레이엄 안전마진·게이츠/버핏 현금·3분의 1 룰·Big Lesson | [0018](0018-story13-margin-of-safety.md) |
+| 0100~0105 | `images/raw/0100-s14-title.jpg` ~ `0105-s14-big-lesson.jpg` | **story 14** 표제·길버트 '역사가 끝났다는 착각'·양극단 회피·카너먼 매몰비용·Big Lesson | [0019](0019-story14-youll-change.md) |
 | 0080~0085 | `images/raw/0080-s11-title.jpg` ~ `0085-p194-bogle.jpg` | **story 11** 스프레드시트가 아니다·마코위츠 50:50·츠바이크·보글 | [0016](0016-story11-reasonable-over-rational.md) |
 | 0073~0079 | `images/raw/0073-s10-title.jpg` ~ `0079-s10-big-lesson.jpg` | **story 10** 세 부류·석유효율·겸손·이유 없는 저축 | [0015](0015-story10-just-save.md) |
 | 0066~0072 | `images/raw/0066-s9-title.jpg` ~ `0072-s9-big-lesson.jpg` | **story 9** 빌 만·부의 정의·다이어트 비유·롤모델 부재 | [0014](0014-story9-rich-vs-wealthy.md) |
@@ -68,6 +69,7 @@
 | [D02](design/D02-evidence-pack.md) | **D01 근거자료** — 401(k) 누수, Vanguard 비상금 연구, 한국 자산구조 | D01 |
 | [D03](design/D03-korea-crisis-list.md) | 🔴 **한국판 「그럼에도 불구하고」 리스트** — 설계 완료, 데이터 조사 필요 | story 5 |
 | [D04](design/D04-wealthy-persona.md) | **자산 부자의 페르소나 + 한국형 롤모델** (이수영·유일한) | story 9 |
+| [D05](design/D05-reversibility.md) | 🔴 **가역성 설계** — 12~14장 how-to 공백 메우기. 골격 완료, 수치 미확보 | story 12~14 |
 
 ## 학습자 배포용
 

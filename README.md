@@ -41,10 +41,10 @@ templates/       기록 양식
 👉 **[STATUS.md — 중간정리·다음 시작점](STATUS.md)**
 
 
-- 사진: 99장
-- 노트: 18편 + 목차 + 개인경험 2편 + 강의설계 4편
+- 사진: 105장
+- 노트: 19편 + 목차 + 개인경험 2편 + 강의설계 5편
 - 학습자 자료: [가로저축과 세로저축](teaching/horizontal-vertical-saving.html) → https://claude.ai/code/artifact/05d591c2-7ea8-4a7b-8d1e-f7149ec75734
-- 현재 위치: **story 13 「안전마진」 ✅ 완독** (story 12·13 사진 일부 미확보)
-- 다음: story 14 「과거의 나 vs. 미래의 나」 (p.239)
+- 현재 위치: **story 14 「과거의 나 vs. 미래의 나」 ✅ 완독** (12~14 사진 일부 미확보)
+- 다음: story 15 「보이지 않는 가격표」 (p.251)
 - 🔑 **내 '충분히' 문장 작성 완료** → [E02](notes/experience/E02-my-enough.md)
-- 강의 채택: story 1 ⭕ / story 2 △ / story 3 ⭕ / story 4 ⭕ / story 5 ⭕ / story 6 ⭕ / story 7 ⭕ / story 8 ⭕ / story 9 ⭕ / story 10 ⭕ / story 11 ⭕ / story 12 ⭕ / story 13 ⭕(12에 붙임)
+- 강의 채택: story 1 ⭕ / story 2 △ / story 3 ⭕ / story 4 ⭕ / story 5 ⭕ / story 6 ⭕ / story 7 ⭕ / story 8 ⭕ / story 9 ⭕ / story 10 ⭕ / story 11 ⭕ / story 12·13·14 ⭕ **한 꼭지로 묶음** (how-to는 [D05](notes/design/D05-reversibility.md)로 보완)
