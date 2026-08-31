@@ -32,6 +32,7 @@
 | 0028 | `images/raw/0028-p72-gupta-fall.jpg` | p.72 내부자거래와 추락 | [0008](0008-story3-never-enough.md) |
 | 0029 | `images/raw/0029-p73-madoff.jpg` | p.73 매도프 · "왜 더 원했는가" | [0008](0008-story3-never-enough.md) |
 | 0030 | `images/raw/0030-p75-buffett-ltcm.jpg` | p.75 LTCM · **워런 버핏의 말(제사 회수)** | [0008](0008-story3-never-enough.md) |
+| 0038~0047 | `images/raw/0038-s5-title.jpg` ~ `0047-s5-big-lesson.jpg` | **story 5** 표제·릭 게린·생존 3원칙·170년 리스트·Big Lesson | [0010](0010-story5-staying-wealthy.md) |
 | 0031 | `images/raw/0031-s3-big-lesson.jpg` | story 3 Big Lesson — 네 가지 질문 · 라스베이거스 | [0008](0008-story3-never-enough.md) |
 | 0032 | `images/raw/0032-s4-title.jpg` | story 4 표제 (Confounding Compounding) | [0009](0009-story4-compounding.md) |
 | 0033 | `images/raw/0033-p89-buffett.jpg` | p.89 버핏 845억 · 815억은 65세 이후 | [0009](0009-story4-compounding.md) |
@@ -57,6 +58,7 @@
 |---|---|---|
 | [D01](design/D01-life-events-and-compounding.md) | 생활 변수를 반영한 복리 — 가로/세로 저축, '회복 가능성' 기준 | story 4 |
 | [D02](design/D02-evidence-pack.md) | **D01 근거자료** — 401(k) 누수, Vanguard 비상금 연구, 한국 자산구조 | D01 |
+| [D03](design/D03-korea-crisis-list.md) | 🔴 **한국판 「그럼에도 불구하고」 리스트** — 설계 완료, 데이터 조사 필요 | story 5 |
 
 ## 학습자 배포용
 
