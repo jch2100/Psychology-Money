@@ -32,6 +32,16 @@
 | 0028 | `images/raw/0028-p72-gupta-fall.jpg` | p.72 내부자거래와 추락 | [0008](0008-story3-never-enough.md) |
 | 0029 | `images/raw/0029-p73-madoff.jpg` | p.73 매도프 · "왜 더 원했는가" | [0008](0008-story3-never-enough.md) |
 | 0030 | `images/raw/0030-p75-buffett-ltcm.jpg` | p.75 LTCM · **워런 버핏의 말(제사 회수)** | [0008](0008-story3-never-enough.md) |
+| 0086~0092 | `images/raw/0086-s12-title.jpg` ~ `0092-s12-big-lesson.jpg` | **story 12** 표제·일곱 명·여덟 사건·탈레브 후쿠시마·구조 변화·그레이엄 자기부정·Big Lesson | [0017](0017-story12-surprise.md) |
+| 0093~0099 | `images/raw/0093-p221-card-counting.jpg` ~ `0099-s13-big-lesson.jpg` | **story 13** 카드 카운팅·겸손·케빈 루이스 100배·그레이엄 안전마진·게이츠/버핏 현금·3분의 1 룰·Big Lesson | [0018](0018-story13-margin-of-safety.md) |
+| 0100~0105 | `images/raw/0100-s14-title.jpg` ~ `0105-s14-big-lesson.jpg` | **story 14** 표제·길버트 '역사가 끝났다는 착각'·양극단 회피·카너먼 매몰비용·Big Lesson | [0019](0019-story14-youll-change.md) |
+| 0106~0111 | `images/raw/0106-s15-title.jpg` ~ `0111-s15-big-lesson.jpg` | **story 15** 표제·S&P 119배·3만 달러 자동차 3지선다·다우 음영 그래프·넷플릭스 94%·자동차 절도·Big Lesson | [0020](0020-story15-nothings-free.md) |
+| 0112~0115 | `images/raw/0112-s16-title.jpg` ~ `0115-s16-big-lesson.jpg` | **story 16** 표제·단일 합리적 가격이라는 나쁜 개념·CNBC 평론가·Big Lesson(네 질문) | [0021](0021-story16-you-and-me.md) |
+| 0116~0122 | `images/raw/0116-s17-title.jpg` ~ `0122-s17-big-lesson.jpg` | **story 17** 표제·1946년 일본·비관이 똑똑해 보이는 이유·1929년 2.5%·레스터 브라운 석유·1889년 비행기 불가능·Big Lesson | [0022](0022-story17-seduction-of-pessimism.md) |
+| 0123~0129 | `images/raw/0123-s18-title.jpg` ~ `0129-s18-big-lesson.jpg` | **story 18** 표제·내러티브 손실·연준 2007년 예측·인센티브·리델 하트·카너먼·Big Lesson | [0023](0023-story18-when-youll-believe-anything.md) |
+| 0130~0139 | `images/raw/0130-s19-title.jpg` ~ `0139-s19-big-lesson.jpg` | **story 19** 표제·의사/재무상담가 비유·열세 항목(겸손~혼란 존중)·**수수료 vs 벌금**·Big Lesson | [0024](0024-story19-all-together-now.md) |
+| 0140~0145 | `images/raw/0140-s20-title.jpg` ~ `0145-p355-savings-patience.jpg` | **story 20** 표제·골대를 옮기지 않았다·탈레브 독립성·인덱스 85%·실제 포트폴리오·**저축률/인내심/낙관** | [0025](0025-story20-confessions.md) |
+| 0146~0149 | `images/raw/0146-p330-clarence-hughes.jpg` ~ `0149-p333-humility-recapture.jpg` | **story 19 보충** — 클래런스 휴스(1931)·제이 카츠 《의사와 환자 사이 침묵의 세상》·p.332~333 재촬영 | [0024](0024-story19-all-together-now.md) |
 | 0080~0085 | `images/raw/0080-s11-title.jpg` ~ `0085-p194-bogle.jpg` | **story 11** 스프레드시트가 아니다·마코위츠 50:50·츠바이크·보글 | [0016](0016-story11-reasonable-over-rational.md) |
 | 0073~0079 | `images/raw/0073-s10-title.jpg` ~ `0079-s10-big-lesson.jpg` | **story 10** 세 부류·석유효율·겸손·이유 없는 저축 | [0015](0015-story10-just-save.md) |
 | 0066~0072 | `images/raw/0066-s9-title.jpg` ~ `0072-s9-big-lesson.jpg` | **story 9** 빌 만·부의 정의·다이어트 비유·롤모델 부재 | [0014](0014-story9-rich-vs-wealthy.md) |
@@ -55,6 +65,7 @@
 |---|---|---|
 | [E01](experience/E01-2009-samsung.md) | 같은 강의실 다른 월급 — "불공평"이 아니라 "다르다" | 2009 |
 | [E02](experience/E02-my-enough.md) | 내 '충분함'의 좌표 — 전원주택 딜레마 **+ 내 '충분히' 문장(일/돈/삶/제약)** | 현재 |
+| [E03](experience/E03-my-investment-game.md) | **내 게임의 정의 — 투자 미션 선언문 초안.** 43세 → 55세 배당 전환, 배당 50~60%→80% | 2026~2038 |
 
 ---
 
@@ -64,8 +75,13 @@
 |---|---|---|
 | [D01](design/D01-life-events-and-compounding.md) | 생활 변수를 반영한 복리 — 가로/세로 저축, '회복 가능성' 기준 | story 4 |
 | [D02](design/D02-evidence-pack.md) | **D01 근거자료** — 401(k) 누수, Vanguard 비상금 연구, 한국 자산구조 | D01 |
-| [D03](design/D03-korea-crisis-list.md) | 🔴 **한국판 「그럼에도 불구하고」 리스트** — 설계 완료, 데이터 조사 필요 | story 5 |
+| [D03](design/D03-korea-crisis-list.md) | 🟡 **한국판 「그럼에도 불구하고」 리스트** — 1차 조사 완료. **2026년이 리스트의 마지막 줄** | story 5 |
 | [D04](design/D04-wealthy-persona.md) | **자산 부자의 페르소나 + 한국형 롤모델** (이수영·유일한) | story 9 |
+| [D05](design/D05-reversibility.md) | 🟡 **가역성 설계** — 되돌리기 비용표 1차 확보. 연금 16.5%·취득세·중도상환수수료 | story 12~14 |
+| [D06](design/D06-curriculum-2h-seoul.md) | 🟢 **커리큘럼 설계서 r2** — 서울시민대학 2시간 온라인·60대·인식전환. 5꼭지 105분 확정 | 전권 |
+| [D08](design/D08-korea-cohort-curve.md) | 🟡 **한국 코호트 곡선** — story 1의 한국판. 20대 10배 vs 30~40대 16년 박스권 | story 1 |
+| [D09](design/D09-content-inventory.md) | 🟡 **본편 컨텐츠 인벤토리** — 꼭지별 재료·용어·수치·퀴즈. 본인 주장 우선 | story 1~11 |
+| [D07](design/D07-curriculum-2h-workers.md) | 🟡 **커리큘럼 설계서 — 30~40대 직장인 2시간.** story 4·6·10 + D01·D05 + 골대 | 전권 |
 
 ## 학습자 배포용
 
